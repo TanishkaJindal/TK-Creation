@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+    background color:black ;
+    border: 0.6vw ridge  burlywood;
+    padding: 8vh;
+    height: 3.5vh;
+    font-family: "Anton", sans-serif;
+    background-color: black;
+    width:100vw;
+color:antiquewhite;
+    
+}
+nav{
+    display: flex;
+}
+nav ul{
+    display:flex;
+    justify-items: center;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+    overflow: hidden;
+}
+
+nav ul li{
+    isplay:flex;
+    justify-items: center;
+    list-style: none;
+}
+li{
+    padding:4vh;
+    text-decoration:none;
+}
+nav ul li a:hover{
+    color:gainsboro ;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+.content{
+    min-height: 78vh;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2vw solid burlywood;
+    border-radius: 0.1vw;
+    margin : 0vw  1.1vw;
+    overflow: hidden;
+}
+input{
+    
+    width:29vw;
+height: 7vh;
+font-family: "Anton", sans-serif;
+cursor: pointer;
+
+}
+.btn{
+    height:1.7vw;
+    width: 2.1vw;
+    background-color: black;
+    color:azure;
+    border: 0.1vw solid burlywood;
+    border-radius:  1.5vw; 
+    margin-top: 0.8vw;
+    cursor: pointer;
+    font-family: "Anton", sans-serif;
+}
+.tea{
+display:flex;
+margin:3.5vw 11.5vw;
+justify-content:space-between;
+ font-family: "Anton", sans-serif;
+ cursor: pointer;
+}
+.t{
+display:flex;
+margin:3.5vw 11.5vw;
+justify-content:space-between;
+align-items: center;
+ font-family: "Anton", sans-serif;
+ cursor: pointer;
+}
+.slider{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:3vw 30vw;
+
+
+}
+.tea{
+    display:flex;
+    margin:3vw 11.5vw;
+justify-content:space-between;
+ font-family: "Anton", sans-serif;
+ cursor: pointer;
+
+}
+.t{
+    display:flex;
+      margin:3vw 11.5vw;
+justify-content:space-between;
+ font-family: "Anton", sans-serif;
+ cursor: pointer;
+}
+
+
+h2{
+    justify-self:  center;
+    font-family: "Anton", sans-serif;
+}
+
+footer{
+    background-color: black;
+    color:antiquewhite;
+    font-family: "Anton", sans-serif;
+}
