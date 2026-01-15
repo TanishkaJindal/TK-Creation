@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Club | NIT Patna</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="/images/fav.jpeg" type="image/x-icon">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="./images/clublogo.png" alt="Logo">
+                <span>ROBOTICS CLUB</span>
+            </div>
+            <div class="nav-links">
+                <a href="./about.html">About</a>
+                <a href="./events.html" >Events</a>
+                <a href="./team.html" >Team</a>
+               
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-text">
+            <div class="nit-badge">
+                <h1>NIT PATNA</h1>
+                <p>National Institute of Technology</p>
+            </div>
+            <h2 class="typewriter">Changing your idea of what robots can do_</h2>
+        </div>
+        <div class="hero-image">
+            <img src="./images/robot.svg" alt="Future Robot" class="float-anim">
+        </div>
+    </header>
+
+    <section class="projects-section">
+        <h2 class="section-title">OUR MAJOR PROJECTS</h2>
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <div class="card-icon"><i class="fa-solid fa-robot"></i></div>
+                <h3>Robo Wars</h3>
+                <p class="short-desc">Battle of the fittest bots.</p>
+                <div class="card-overlay">
+                    <p>We conducted robowars which was a big hit. Students of different schools and colleges from Patna participated to test their combat bots.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
+                <h3>Chakravyuh</h3>
+                <p class="short-desc">Maze solving algorithms.</p>
+                <div class="card-overlay">
+                    <p>A maze solving event based on the backdrop of Abhimanyu’s Chakravyuh from Mahabharata using autonomous pathfinding.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-icon"><i class="fa-solid fa-paw"></i></div>
+                <h3>Lion's Kingdom</h3>
+                <p class="short-desc">Obstacle traversal.</p>
+                <div class="card-overlay">
+                    <p>Participants had to traverse their bots through a zig-zag path overcoming physical obstacles and terrain changes.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-icon"><i class="fa-solid fa-cube"></i></div>
+                <h3>3D Printing</h3>
+                <p class="short-desc">CAD & Prototyping.</p>
+                <div class="card-overlay">
+                    <p>A two-day workshop on 3D printing where basics of 3D designing, slicing, and hardware maintenance were discussed.</p>
+                </div>
+            </div>
+
+             <div class="project-card">
+                <div class="card-icon"><i class="fa-solid fa-school"></i></div>
+                <h3>Campus Robo</h3>
+                <p class="short-desc">Campus assistant.</p>
+                <div class="card-overlay">
+                    <p>A mini robot local to our campus. It keeps records of the main events and guides visitors.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="upcoming-section">
+        <h2 class="section-title">OUR FUTURE PROJECTS</h2>
+        <div class="marquee-container">
+            <div class="event-tag">Hack-O-Heist</div>
+            <div class="event-tag">Abhiyuthan</div>
+            <div class="event-tag">Tech-Sagar</div>
+            <div class="event-tag">Drone Racing</div>
+        </div>
+    </section>
+
+    <section class="info-grid">
+        <div class="club-branding">
+            <img src="./images/clublogo.png" alt="Club Logo">
+        </div>
+        <div class="club-details">
+            <h2>NIT PATNA ROBOTICS CLUB</h2>
+            <p>Striving to stimulate interest in robotics, automation, and AI among the students of the institute. #HailRobotics</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p><i class="fa-solid fa-location-dot"></i> Incubation Center 3rd Floor, NIT Patna - 800005</p>
+        <p>&copy; 2026 Robotics Club NITP. All Systems Operational.</p>
+    </footer>
+
+    <div id="modal-overlay" class="modal-overlay hidden">
+        
+        <div id="login-modal" class="modal-box hidden">
+            <span class="close-modal">&times;</span>
+            <h3>MEMBER ACCESS</h3>
+            <input type="text" placeholder="Username / ID">
+            <input type="password" placeholder="Password">
+            <button class="glow-btn full-width">Initialize</button>
+        </div>
+
+        <div id="contact-modal" class="modal-box hidden">
+            <span class="close-modal">&times;</span>
+            <h3>CONTACT COMMAND</h3>
+            <div class="contact-list">
+                <p><strong>Shrinivas:</strong> 7418985961</p>
+                <p><strong>Jatin:</strong> 9026790945</p>
+                <p><strong>Milan:</strong> 8296100660</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
